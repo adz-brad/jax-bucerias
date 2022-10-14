@@ -6,6 +6,6 @@ package = "@netlify/plugin-sitemap"
   trailingSlash = true
   
 [[redirects]]
-from = "https://www.jaxbucerias.com#menu"
-to = "https://www.jaxbucerias.com/menu/"
+from = "https://jaxbucerias.netlify.app#menu"
+to = "https://jaxbucerias.netlify.app/menu/"
 status = 200
