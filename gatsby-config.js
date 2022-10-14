@@ -48,6 +48,6 @@ module.exports = {
     },
     `gatsby-plugin-image`,
     'gatsby-plugin-postcss',
-    'gatsby-plugn-netlify'
+    'gatsby-plugin-netlify'
   ],
 }
