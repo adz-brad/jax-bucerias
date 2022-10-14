@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: OpenSans;
+        src: url('../assets/fonts/OpenSans.ttf');
+    }
+    @font-face {
+        font-family: Staatliches;
+        src: url('../assets/fonts/Staatliches.ttf');
+    }
+
+}
+
+html {
+    @apply bg-zinc-900 text-neutral-100;
+}
+
+body {
+    font-family: OpenSans;
+}
+
+.headers {
+    font-family: Staatliches;
+}
+
