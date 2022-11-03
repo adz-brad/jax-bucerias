@@ -1,26 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../navbar'
 import Footer from '../footer'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const Layout = ({ children }) => {
-
-    const [ admin, setAdmin ] = useState(false)
-
-    let location;
-
-    if(typeof window !== 'undefined'){
-        location = window.location.pathname
-    }
-
-    useEffect(() => {
-        if(location === '/admin') {
-            setAdmin(true)
-        }
-        else{
-            setAdmin(false)
-        }
-    }, [ location ])
 
     useEffect(() => {
         document.getElementById('pageWrapper').scrollTo(0,0)
@@ -28,9 +11,9 @@ const Layout = ({ children }) => {
 
     return(
         <div className="relative z-10 h-screen">
-            { admin ? null : <Navbar /> }
+            <Navbar /> 
             <div className="fixed bottom-0 left-0 z-10 w-full h-[calc(100%-100px)] md:h-[calc(100%-120px)]">
-                <div className="relative z-10 w-full h-full opacity-30">
+                <div id="bgImageWrapper" className="relative z-10 w-full h-full opacity-30">
                 <StaticImage 
                     src="../../assets/images/bg.png" 
                     alt="Jax Bucerias Skeleton Marquee - Page Background" 
