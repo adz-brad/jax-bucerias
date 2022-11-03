@@ -132,7 +132,7 @@ const eventsToday = events.filter(event => event.day === days[today.getDay()])
                 : <>No Bands Scheduled</> }
             </ul>
             <Link
-              to="bands/"
+              to="bands"
               className="headers text-2xl flex flex-col items-center w-full max-w-screen-sm mx-auto px-2 py-3 hover:bg-neutral-100 hover:text-neutral-900 bg-red-600 text-neutral-100 transition-colors mt-8 mb-4"
             >
               See Band Schedule
@@ -172,7 +172,7 @@ const eventsToday = events.filter(event => event.day === days[today.getDay()])
                 : <>No Events Scheduled</> }
             </ul>
             <Link
-              to="events/"
+              to="events"
               className="headers text-2xl flex flex-col items-center w-full max-w-screen-sm mx-auto px-2 py-3 hover:bg-neutral-100 hover:text-neutral-900 bg-red-600 text-neutral-100 transition-colors mt-8 mb-4"
             >
               See Event Schedule
