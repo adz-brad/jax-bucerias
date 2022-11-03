@@ -6,7 +6,7 @@ import { socialLinks } from '../../data/socialLinks'
 
 const Navbar = () => {
 
-    const [ mobileNav, setMobileNav ] = useState(true)
+    const [ mobileNav, setMobileNav ] = useState(false)
 
     const mobileNavOpen = 'left-0'
     const mobileNavClosed = '-translate-x-full xl:-translate-x-0'
@@ -22,7 +22,7 @@ const Navbar = () => {
                     <StaticImage
                         src="../../assets/images/logo.png"
                         alt="Jax Bucerias, Riviera Nayarit - Home of the Best Live Music In The Bay - Logo"
-                        className="w-[80px] md:w-[120px] my-auto"
+                        className="w-[80px] md:w-[110px] my-auto"
                         loading="eager"
                     />
                     <div className="flex flex-col ml-4">

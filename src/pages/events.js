@@ -1,11 +1,12 @@
 import React from "react"
+import EventsDisplay from "../components/events"
 
 const Events = () => {
 
   return(
 
-    <div>
-
+    <div className="p-4">
+      <EventsDisplay/>
     </div>
     
   )

@@ -1,4 +1,6 @@
-module.exports = {
+require("dotenv").config()
+  
+  module.exports = {
   siteMetadata: {
     title: `Jax Bucerias`,
     description:

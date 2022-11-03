@@ -14,15 +14,26 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.0",
+    "@cloudinary/react": "^1.5.0",
+    "@cloudinary/url-gen": "^1.8.6",
+    "browser-monads": "^1.0.0",
+    "cloudinary": "^1.32.0",
     "gatsby": "^4.24.4",
     "gatsby-plugin-image": "^2.24.0",
     "gatsby-plugin-manifest": "^4.24.0",
     "gatsby-plugin-netlify": "^5.0.1",
     "gatsby-plugin-sharp": "^4.24.0",
     "gatsby-source-filesystem": "^4.24.0",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
     "react": "^18.1.0",
+    "react-datepicker": "^4.8.0",
     "react-dom": "^18.1.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "react-toastify": "^9.0.8",
+    "realm-web": "^2.0.0",
+    "recoil": "^0.7.6"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
