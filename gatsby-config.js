@@ -50,6 +50,14 @@ require("dotenv").config()
     },
     `gatsby-plugin-image`,
     'gatsby-plugin-postcss',
-    'gatsby-plugin-netlify'
+    'gatsby-plugin-netlify',
+    {
+      resolve: `gatsby-plugin-gtag`, 
+      options: {
+        trackingId: process.env.GATSBY_GA_TRACKING_ID,
+        head: false
+      },
+    },
+    'gatsby-plugin-preact'
   ],
 }
