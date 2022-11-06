@@ -41,6 +41,14 @@ body {
     z-index: 999;
 }
 
+.pageLayout {
+    @apply relative flex flex-col h-[calc(100vh-100px)] md:h-[calc(100vh-120px)] top-[100px] md:top-[120px];
+}
+
+.bgImageWrapper {
+    @apply fixed h-full w-full top-[100px] md:top-[120px];
+}
+
  /*--- Scrollbars --- */
 
 ::-webkit-scrollbar {

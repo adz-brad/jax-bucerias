@@ -13,8 +13,8 @@ const Layout = ({ children }) => {
     return(
         <div>
             <Navbar /> 
-            <div className="relative flex flex-col h-[calc(100vh-100px)] md:h-[calc(100vh-120px)] top-[100px] md:top-[120px]">
-                <div className="fixed h-full w-full top-[100px] md:top-[120px]">
+            <div className="pageLayout">
+                <div className="bgImageWrapper">
                 <StaticImage 
                     src="../../assets/images/bg.png" 
                     alt="Jax Bucerias Skeleton Marquee - Page Background" 
