@@ -54,7 +54,7 @@ const eventsToday = events.filter(event => event.day === days[today.getDay()])
     <div className="py-2">
       <div className="flex flex-col">
         <div className="relative">
-        {/*<video 
+        <video 
           repeat 
           loop 
           autoPlay 
@@ -67,8 +67,8 @@ const eventsToday = events.filter(event => event.day === days[today.getDay()])
             type="video/mp4" 
             alt="Jax Bucerias Nayarit"
           />
-        </video>*/}
-        {/*<div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 flex flex-col items-center w-full">
+        </video>
+        <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 flex flex-col items-center w-full">
         <StaticImage
           src="../assets/images/favicon.png"
           loading="eager"
@@ -78,9 +78,9 @@ const eventsToday = events.filter(event => event.day === days[today.getDay()])
         <span className="headers filter drop-shadow-lg text-xl md:text-3xl xl:text-5xl -mt-2 md:mt-2">
           Home of the best live music in the bay!
         </span>
-        </div>*/}
         </div>
-        <div className="bg-zinc-900/50 p-4 max-w-screen-xxl mx-auto md:py-8">
+        </div>
+        <div className=" p-4 max-w-screen-xxl mx-auto md:py-8">
             <h1 className="flex flex-col sm:flex-row mt-4 items-center sm:justify-center sm:items-start">
               <span className="headers uppercase text-red-600 text-4xl sm:text-5xl md:text-6xl filter drop-shadow-md">
                 Salud Amigos &
@@ -109,7 +109,7 @@ const eventsToday = events.filter(event => event.day === days[today.getDay()])
                 {bandsToday.length > 0 ?
                     bandsToday.map((band, i) => {
                         return(
-                            <li key={i} className="flex flex-col sm:flex-row bg-zinc-900/50 rounded-md shadow-md">
+                            <li key={i} className="flex flex-col sm:flex-row rounded-md shadow-md">
                                 <img 
                                     src={band.image} 
                                     alt={`${band.title} live on stage at Jax every ${band.day} at ${band.time}`} 
@@ -149,7 +149,7 @@ const eventsToday = events.filter(event => event.day === days[today.getDay()])
                 {eventsToday.length > 0 ?
                     eventsToday.map((event, i) => {
                         return(
-                            <li key={i} className="flex flex-col sm:flex-row bg-zinc-900/70 rounded-md shadow-md">
+                            <li key={i} className="flex flex-col sm:flex-row rounded-md shadow-md">
                                 <img 
                                     src={event.image} 
                                     alt={`${event.title} live on stage at Jax every ${event.day} at ${event.time}`} 

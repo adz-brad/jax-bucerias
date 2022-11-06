@@ -12,7 +12,7 @@ const Navbar = () => {
     const mobileNavClosed = '-translate-x-full xl:-translate-x-0'
 
     return(
-        <nav className="absolute top-0 left-0 h-[100px] md:h-[120px] w-full z-50">
+        <nav className="absolute top-0 left-0 h-[100px] md:h-[120px] w-full z-50 bg-gradient-to-b from-zinc-900 to-zinc-900/30 via-zinc-900/80">
             <div className="relative flex flex-row items-center w-full max-w-screen-xxl mx-auto h-full z-40">
                 <Link
                     to="/"

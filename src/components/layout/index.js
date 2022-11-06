@@ -11,10 +11,10 @@ const Layout = ({ children }) => {
     }, [ window.location ])
 
     return(
-        <div className="relative z-10 h-screen">
+        <div>
             <Navbar /> 
-            <div className="fixed bottom-0 left-0 z-10 w-full h-[calc(100%-100px)] md:h-[calc(100%-120px)]">
-                <div id="bgImageWrapper" className="relative z-10 w-full h-full opacity-30">
+            <div className="relative flex flex-col h-[caclc(100vh-100px)] md:h-[calc(100vh-120px)] top-[100px] md:top-[120px]">
+                <div className="fixed h-full w-full top-[100px] md:top-[120px]">
                 <StaticImage 
                     src="../../assets/images/bg.png" 
                     alt="Jax Bucerias Skeleton Marquee - Page Background" 
@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
                     className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[calc(100%-10px)] max-w-screen-lg"
                 />
                 </div>
-                <main id="pageWrapper" className="absolute top-0 left-0 h-full w-full overflow-y-auto z-50">
+                <main id="pageWrapper" className="absolute top-0 left-0 h-full w-full overflow-y-auto z-50 bg-zinc-900/80">
                     <div className="max-w-screen-xxl mx-auto">
                         {children}
                     </div>
