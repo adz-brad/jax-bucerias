@@ -68,7 +68,7 @@ const eventsToday = events.filter(event => event.day === days[today.getDay()])
             alt="Jax Bucerias Nayarit"
           />
         </video>
-        <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 flex flex-col items-center w-full">
+        {/*<div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 flex flex-col items-center w-full">
         <StaticImage
           src="../assets/images/favicon.png"
           loading="eager"
@@ -78,7 +78,7 @@ const eventsToday = events.filter(event => event.day === days[today.getDay()])
         <span className="headers filter drop-shadow-lg text-xl md:text-3xl xl:text-5xl -mt-2 md:mt-2">
           Home of the best live music in the bay!
         </span>
-        </div>
+        </div>*/}
         </div>
         <div className="bg-zinc-900/50 p-4 max-w-screen-xxl mx-auto md:py-8">
             <h1 className="flex flex-col sm:flex-row mt-4 items-center sm:justify-center sm:items-start">
