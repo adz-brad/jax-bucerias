@@ -38,6 +38,7 @@ body {
 }
 
 .navbar {
+    @apply absolute top-0 left-0 h-[100px] md:h-[120px] w-full bg-gradient-to-b from-zinc-900 to-zinc-900/30 via-zinc-900/80;
     z-index: 999;
 }
 
