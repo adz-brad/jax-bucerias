@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
             <Navbar /> 
             <div className="pageLayout">
                 <div className="bgImageWrapper">
-                <StaticImage 
+                <StaticImage   
                     src="../../assets/images/bg.png" 
                     alt="Jax Bucerias Skeleton Marquee - Page Background" 
                     loading="lazy" 
