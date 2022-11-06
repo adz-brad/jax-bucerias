@@ -2,12 +2,13 @@ import React, { useEffect } from 'react'
 import Navbar from '../navbar'
 import Footer from '../footer'
 import { StaticImage } from 'gatsby-plugin-image'
+import { window } from 'browser-monads'
 
 const Layout = ({ children }) => {
 
     useEffect(() => {
         document.getElementById('pageWrapper').scrollTo(0,0)
-    }, [ location ])
+    }, [ window.location ])
 
     return(
         <div className="relative z-10 h-screen">

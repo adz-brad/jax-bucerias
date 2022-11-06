@@ -34,7 +34,7 @@ require("dotenv").config()
         "name": "images",
         "path": `${__dirname}/src/assets/images`
       },
-      __key: "pages"
+      __key: "images"
     }, 
     {
       resolve: `gatsby-plugin-sharp`,

@@ -50,7 +50,7 @@ const bandsToday = bands.filter(band => band.day === days[today.getDay()])
 const eventsToday = events.filter(event => event.day === days[today.getDay()])
 
   return(
-
+<></>
     // <div className="py-2">
     //   <div className="flex flex-col">
     //     <div className="relative">
