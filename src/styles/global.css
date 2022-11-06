@@ -37,6 +37,10 @@ body {
   font-family: ComforterBrush;
 }
 
+.navbar {
+    z-index: 999;
+}
+
  /*--- Scrollbars --- */
 
 ::-webkit-scrollbar {
